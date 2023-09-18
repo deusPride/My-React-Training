@@ -1,0 +1,131 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+
+.App {
+    margin: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile {
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px 3px #bdc3c7;
+}
+
+.username {
+    text-align: center;
+    font-weight: 600;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.userDetails ul {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.userDetails li {
+    padding: 3px;
+
+}
+
+button {
+    color: white;
+    padding: 5px 25 px;
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #007bff;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.links {
+
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.links ul li,
+a {
+    margin: 35px;
+    text-decoration: none;
+    list-style: none;
+    list-style: none;
+    margin-left: 20px;
+    float: left;
+    font-size: 22px;
+   
+}
+
+.links ul li .active {
+    border-bottom: 5px solid rgb(9, 31, 90) !important;
+}
+
+.blog-list {
+    width: 600px;
+    text-align: left;
+    margin-top: 3%;
+}
+
+.blog-list h2 {
+    color: #fd598a;
+    margin: 2% 0%;
+}
+
+.Post-preview {
+    padding: 5px 2%;
+}
+
+.Post-preview p {
+    text-transform: capitalize;
+    font-size: large;
+
+}
+
+.author {
+    margin: 1% 0%;
+    color: #646769;
+    text-transform: capitalize;
+}
+
+.Post-preview:hover {
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(101%);
+    z-index: 99;
+    cursor: pointer;
+}
+
+.delete {
+    transform: scale(60%);
+}
+
+h1:first-child {
+    color: #19508b;
+}

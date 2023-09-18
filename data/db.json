@@ -1,0 +1,28 @@
+{
+    "blogs": [
+        {
+      "id": 1,
+      "title": "Post numero",
+      "content": "Voici un article",
+      "author": "auteur"
+        },
+        {
+      "id": 2,
+      "title": "Post numero",
+      "content": "Voici un article",
+      "author": "Nono"
+        },
+        {
+      "id": 3,
+      "title": "Post numero",
+      "content": "Voici un article",
+      "author": "Nono"
+        },
+        {
+      "id": 4,
+      "title": "Post numero",
+      "content": "Voici un article",
+      "author": "Kuma"
+        }
+    ]
+}
