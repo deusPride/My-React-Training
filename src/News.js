@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Article from "./myApps/blog/blog";
 
 import { Title } from "./myApps/Components/App-Component";
-document.title = "Blog";
+document.title = "Nonoverse's Blog";
 const News = () => {
   const [Blogs, updateBlogs] = useState([
     {

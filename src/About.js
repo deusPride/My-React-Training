@@ -5,7 +5,7 @@ const About = () => {
   document.title = "About";
   return (
     <div>
-      <Title level={1} text="Programming Hero About" />
+      <Title level={1} text="About Nonoverse" />
     </div>
   );
 };

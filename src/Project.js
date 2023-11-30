@@ -7,7 +7,7 @@ const Project = () => {
   document.title = "Projects";
   return (
     <div>
-      <Title level={1} text="Programming Hero Project" />
+      <Title level={1} text="Nonoverse's React Project" />
 
       <div className="links">
         <ul>
@@ -16,6 +16,9 @@ const Project = () => {
           </li>
           <li>
             <Link to="randomUserGenerator">random User Generator App</Link>
+          </li>
+          <li>
+            <Link to="todolist">Todo list</Link>
           </li>
         </ul>
       </div>

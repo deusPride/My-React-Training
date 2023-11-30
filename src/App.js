@@ -5,6 +5,7 @@ import Contact from "./Contact";
 import Project from "./Project";
 import Counter from "./myApps/Counter/CounterApp";
 import RandomUserGen from "./myApps/Random User Generator/RandomUserGen";
+import TodoList from "./myApps/Todo-list/Todo";
 import NotFound from "./NotFound";
 import News from "./News";
 import { Routes, Route } from "react-router-dom";
@@ -27,6 +28,7 @@ const App = () => {
           path="/Projects/randomUserGenerator"
           element={<RandomUserGen />}
         />
+        <Route path="/Projects/todolist" element={<TodoList />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
