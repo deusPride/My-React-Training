@@ -13,7 +13,6 @@ const Home = () => {
   return (
     <div>
       <Title level={1} text="Nonoverse Portfolio Home" />
-      <NumberList numbers={[1, 2]} />
     </div>
   );
 };
